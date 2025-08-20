@@ -90,6 +90,7 @@ function App() {
                 return;
             }
             const urlBase = `${urlBack}/api/mailer/forms/`;
+            console.log(urlBase)
 
             if (formType === 'influencer') {
                 const response = await fetch(`${urlBase}influencer`, {
