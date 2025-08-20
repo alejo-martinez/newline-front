@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Hoyoverse",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGO7rpT6O29Dw/company-logo_100_100/company-logo_100_100/0/1644812371861/hoyoverse_logo?e=1755734400&v=beta&t=FDtNUeKeIA62mB8G_D7uvhwNpEqA_kFS1arHhMnYTiw",
+        "category": "Gaming"
+    },
+    {
+        "name": "Wargaming",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHW5LSPPNWGvw/company-logo_100_100/B4EZeESt0qHYAQ-/0/1750271188777/wargaming_net_logo?e=1755734400&v=beta&t=8cVpxEElFaDdEgw897PGtvLeheYckhgLCPXRVi_NBwA",
+        "category": "Gaming"
+    },
+    {
+        "name": "Gaijin",
+        "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFwP7iW53m3gw/company-logo_100_100/company-logo_100_100/0/1630584528589/gaijin_entertainment_logo?e=1755734400&v=beta&t=tlqsnvF7Y0DK9uZUbb9gT-CWQbgDbI3HserVTt_pPJs",
+        "category": "Gaming"
+    },
+    {
+        "name": "NordVPN",
+        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQE5E772OHER7Q/company-logo_100_100/company-logo_100_100/0/1674746336245/nord_vpn_logo?e=1755734400&v=beta&t=TVv6pJXGIMksNxSlP-jR8ZC4UvqmSCAxdR19MdFTlvc",
+        "category": "VPN"
+    },
+    {
+        "name": "Surfshark",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGefwSWXxLTHg/company-logo_100_100/company-logo_100_100/0/1688551355181/surfshark_logo?e=1756944000&v=beta&t=r6PR-uDU5Ey8WKiLDKNTMehd0cK-LTucVcDyE-dz9rM",
+        "category": "VPN"
+    },
+    {
+        "name": "ExpressVPN",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGm3ee6befmHA/company-logo_100_100/company-logo_100_100/0/1630655782841/expressvpn_logo?e=1755734400&v=beta&t=Xvs8rLnLEyC29WckUf2t-cDiAtcteEj6EtZXhruCMMo",
+        "category": "VPN"
+    },
+    {
+        "name": "CyberGhost",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQHOJdmh4viIRQ/company-logo_100_100/company-logo_100_100/0/1631382201461?e=1755734400&v=beta&t=P4ynftaobw4AkZ0XCPiaHBoxHe24KVjC86EOHsVrQRE",
+        "category": "VPN"
+    },
+    {
+        "name": "Factor75",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQETqk36wd2ZjA/company-logo_100_100/company-logo_100_100/0/1630609300294/factor_75_logo?e=1755734400&v=beta&t=PPaKCQfyDoIkDehIMRIhhxm9KFf6FairNjMTO7fOEIg",
+        "category": "Food"
+    },
+    {
+        "name": "Bytro",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFYiovOH-RUzg/company-logo_200_200/B4EZaDHO0SHYAM-/0/1745956433533?e=1755734400&v=beta&t=OlKU-i4p4AF3Ha6CPiDIDd-bN24rzo-OvIGeAMPJG34",
+        "category": "Gaming"
+    },
+    {
+        "name": "Socialpoint",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQGppZ4AkWyiFQ/company-logo_200_200/company-logo_200_200/0/1720522659715/social_point_logo?e=1755734400&v=beta&t=806ZHh9lPKtV1q0p3Uk4AfOlIZDY1FTCV_4igo-7XM4",
+        "category": "Gaming"
+    },
+    {
+        "name": "Raycon",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGnv-y1-2OzMA/company-logo_100_100/company-logo_100_100/0/1711734620020/rayconglobal_logo?e=1755734400&v=beta&t=ThO5YZP-sFwIdLH_cEdjbkwL8Tt6HodQ1A6K0ki_KBk",
+        "category": "Tech"
+    },
+    {
+        "name": "NetEase",
+        "logo": "https://media.licdn.com/dms/image/v2/C510BAQGyWYGAREBU9Q/company-logo_100_100/company-logo_100_100/0/1630627220630/netease_games_logo?e=1755734400&v=beta&t=3NO-JdRohI2Kd2y8yjZ4u4n7lsZJ8YHIOg6B4StN3eQ",
+        "category": "Gaming"
+    },
+    {
+        "name": "Saily",
+        "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEDYFkJ2iMlaQ/company-logo_100_100/company-logo_100_100/0/1705482002660/saily_app_logo?e=1755734400&v=beta&t=a5WuhbWIFq5EcF21t7qicfl2CyjSLR7Tz8SJy_kxM5Y",
+        "category": "Tech"
+    },
+    {
+        "name": "Opera",
+        "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGrquqAODKaqQ/company-logo_100_100/company-logo_100_100/0/1666189866563/opera_software_logo?e=1755734400&v=beta&t=7srA67eaymguYhlVKXhllD3_b-6n-cPvYf2mD380pZI",
+        "category": "Tech"
+    },
+    {
+        "name": "Wondershare",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQFwLnaFAokcFA/company-logo_100_100/company-logo_100_100/0/1630578977350/wondershare_software_logo?e=1755734400&v=beta&t=cE7ULj9mEjwJ_M-JkxrQ0nglNiMO5nesd1oocqjdVzg",
+        "category": "Software"
+    }
+]

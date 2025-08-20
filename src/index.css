@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 220 25% 5%;
+        --foreground: 210 20% 98%;
+        --card: 220 25% 9%;
+        --card-foreground: 210 20% 98%;
+        --popover: 220 25% 9%;
+        --popover-foreground: 210 20% 98%;
+        --primary: 180 100% 50%;
+        --primary-rgb: 0, 255, 255;
+        --secondary: 190 100% 45%;
+        --secondary-rgb: 0, 229, 255;
+        --accent: 320 90% 60%;
+        --accent-rgb: 255, 12, 206;
+        --destructive: 0 80% 50%;
+        --destructive-foreground: 210 20% 98%;
+        --muted: 220 25% 15%;
+        --muted-foreground: 210 15% 70%;
+        --border: 220 25% 20%;
+        --input: 220 25% 20%;
+        --ring: 180 100% 50%;
+        --radius: 0.75rem;
+    }
+
+    .light {
+        --background: 0 0% 100%;
+        --foreground: 220 25% 10%;
+        --card: 0 0% 100%;
+        --card-foreground: 220 25% 10%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 220 25% 10%;
+        --primary: 180 100% 50%;
+        --primary-rgb: 0, 255, 255;
+        --secondary: 190 100% 45%;
+        --secondary-rgb: 0, 229, 255;
+        --accent: 320 90% 60%;
+        --accent-rgb: 255, 12, 206;
+        --destructive: 0 80% 50%;
+        --destructive-foreground: 210 20% 98%;
+        --muted: 220 25% 95%;
+        --muted-foreground: 220 25% 40%;
+        --border: 220 25% 88%;
+        --input: 220 25% 88%;
+        --ring: 180 100% 50%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animate-on-scroll.is-in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
