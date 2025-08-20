@@ -15,6 +15,7 @@ import brands from "../brands.json";
 
 const SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 const YOUTUBE_API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
+const urlBack = import.meta.env.VITE_API_URL;
 
 function App() {
     const [formType, setFormType] = useState("influencer")
@@ -88,7 +89,7 @@ function App() {
                 alert("Por favor completá el reCAPTCHA");
                 return;
             }
-            const urlBase = "http://localhost:5045/api/mailer/forms/";
+            const urlBase = `${urlBack}/api/mailer/forms/`;
 
             if (formType === 'influencer') {
                 const response = await fetch(`${urlBase}influencer`, {
