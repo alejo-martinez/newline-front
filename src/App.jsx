@@ -91,15 +91,14 @@ function App() {
         try {
             e.preventDefault();
             setCaptchaLoading(true);
-            console.log("Submitting form...");
+
             if (!captchaRef.current) {
                 console.error("❌ captchaRef.current no está definido")
                 return
             }
 
-            console.log("🚀 Ejecutando reCAPTCHA...")
             const token = await captchaRef.current.executeAsync()
-            console.log("✅ Token recibido:", token)
+
 
             if (!token) {
                 console.error("❌ No se generó un token de reCAPTCHA")
@@ -111,7 +110,7 @@ function App() {
                 return;
             }
             const urlBase = `${API_URL}/api/mailer/forms/`;
-            console.log(urlBase)
+
 
             if (formType === 'influencer') {
                 const response = await fetch(`${urlBase}influencer`, {
