@@ -77,6 +77,16 @@ function App() {
 
 
     const handleSubmit = async (e) => {
+        console.log("Form submitted:", {
+            name,
+            email,
+            socialLink,
+            niche,
+            message,
+            contact,
+            website,
+            budget,
+        });
         try {
             e.preventDefault();
             setCaptchaLoading(true);
@@ -84,7 +94,7 @@ function App() {
             captchaRef.current?.reset();
             setCaptchaLoading(false);
             setLoading(true);
-
+            console.log("reCAPTCHA token:", token);
             if (!token) {
                 alert("Por favor completá el reCAPTCHA");
                 return;
