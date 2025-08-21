@@ -34,10 +34,10 @@ function App() {
     const [captchaLoading, setCaptchaLoading] = useState(false);
 
 
-    const handleCaptcha = (token) => {
-        console.log("Captcha token:", token);
-        setCaptchaLoading(false);
-    };
+    // const handleCaptcha = (token) => {
+    //     console.log("Captcha token:", token);
+    //     setCaptchaLoading(false);
+    // };
 
 
     useEffect(() => {
@@ -136,7 +136,7 @@ function App() {
                     setSocialLink("");
                     setNiche("");
                     setMessage("");
-                    toast.success('¡Formulario enviado!');
+                    toast.success('Form sended!');
                     setLoading(false);
                 }
                 // const data = response.data;
@@ -166,7 +166,7 @@ function App() {
                     setWebsite("");
                     setBudget("");
                     setMessage("");
-                    toast.success('¡Formulario enviado!');
+                    toast.success('Form sended!');
                     setLoading(false);
                 }
                 // const data = response.data;
@@ -189,14 +189,14 @@ function App() {
                     setName("");
                     setEmail("");
                     setMessage("");
-                    toast.success('¡Formulario enviado!');
+                    toast.success('Form sended!');
                     setLoading(false);
                 }
                 // const data = response.data;
             }
         } catch (error) {
             console.log(error);
-            toast.error('Error al enviar el formulario. Por favor, intentá nuevamente más tarde.');
+            toast.error('An error has been occurred, please try again later.');
             setLoading(false)
         } finally {
             setCaptchaLoading(false);
