@@ -15,16 +15,6 @@
         "category": "Gaming"
     },
     {
-        "name": "NordVPN",
-        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQE5E772OHER7Q/company-logo_100_100/company-logo_100_100/0/1674746336245/nord_vpn_logo?e=1755734400&v=beta&t=TVv6pJXGIMksNxSlP-jR8ZC4UvqmSCAxdR19MdFTlvc",
-        "category": "VPN"
-    },
-    {
-        "name": "Surfshark",
-        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGefwSWXxLTHg/company-logo_100_100/company-logo_100_100/0/1688551355181/surfshark_logo?e=1756944000&v=beta&t=r6PR-uDU5Ey8WKiLDKNTMehd0cK-LTucVcDyE-dz9rM",
-        "category": "VPN"
-    },
-    {
         "name": "ExpressVPN",
         "logo": "https://media.licdn.com/dms/image/v2/C560BAQGm3ee6befmHA/company-logo_100_100/company-logo_100_100/0/1630655782841/expressvpn_logo?e=1755734400&v=beta&t=Xvs8rLnLEyC29WckUf2t-cDiAtcteEj6EtZXhruCMMo",
         "category": "VPN"
@@ -33,11 +23,6 @@
         "name": "CyberGhost",
         "logo": "https://media.licdn.com/dms/image/v2/C560BAQHOJdmh4viIRQ/company-logo_100_100/company-logo_100_100/0/1631382201461?e=1755734400&v=beta&t=P4ynftaobw4AkZ0XCPiaHBoxHe24KVjC86EOHsVrQRE",
         "category": "VPN"
-    },
-    {
-        "name": "Factor75",
-        "logo": "https://media.licdn.com/dms/image/v2/C560BAQETqk36wd2ZjA/company-logo_100_100/company-logo_100_100/0/1630609300294/factor_75_logo?e=1755734400&v=beta&t=PPaKCQfyDoIkDehIMRIhhxm9KFf6FairNjMTO7fOEIg",
-        "category": "Food"
     },
     {
         "name": "Bytro",
