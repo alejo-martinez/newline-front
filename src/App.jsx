@@ -88,6 +88,7 @@ function App() {
             budget,
         });
         try {
+            console.log("Submitting form...");
             e.preventDefault();
             setCaptchaLoading(true);
             const token = await captchaRef.current?.executeAsync();
