@@ -88,14 +88,14 @@ function App() {
             budget,
         });
         try {
-            console.log("Submitting form...");
             e.preventDefault();
             setCaptchaLoading(true);
+            console.log("Submitting form...");
             const token = await captchaRef.current?.executeAsync();
+            console.log("reCAPTCHA token:", token);
             captchaRef.current?.reset();
             setCaptchaLoading(false);
             setLoading(true);
-            console.log("reCAPTCHA token:", token);
             if (!token) {
                 alert("Por favor completá el reCAPTCHA");
                 return;
