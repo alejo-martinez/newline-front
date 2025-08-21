@@ -1,62 +1,57 @@
 [
     {
         "name": "Hoyoverse",
-        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGO7rpT6O29Dw/company-logo_100_100/company-logo_100_100/0/1644812371861/hoyoverse_logo?e=1755734400&v=beta&t=FDtNUeKeIA62mB8G_D7uvhwNpEqA_kFS1arHhMnYTiw",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/hoyoverse_logo.jpeg",
         "category": "Gaming"
     },
     {
         "name": "Wargaming",
-        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHW5LSPPNWGvw/company-logo_100_100/B4EZeESt0qHYAQ-/0/1750271188777/wargaming_net_logo?e=1755734400&v=beta&t=8cVpxEElFaDdEgw897PGtvLeheYckhgLCPXRVi_NBwA",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/wargaming_net_logo.jpeg",
         "category": "Gaming"
     },
     {
         "name": "Gaijin",
-        "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFwP7iW53m3gw/company-logo_100_100/company-logo_100_100/0/1630584528589/gaijin_entertainment_logo?e=1755734400&v=beta&t=tlqsnvF7Y0DK9uZUbb9gT-CWQbgDbI3HserVTt_pPJs",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/gaijin_entertainment_logo.jpeg",
         "category": "Gaming"
     },
     {
         "name": "ExpressVPN",
-        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGm3ee6befmHA/company-logo_100_100/company-logo_100_100/0/1630655782841/expressvpn_logo?e=1755734400&v=beta&t=Xvs8rLnLEyC29WckUf2t-cDiAtcteEj6EtZXhruCMMo",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/expressvpn_logo.jpeg",
         "category": "VPN"
     },
     {
         "name": "CyberGhost",
-        "logo": "https://media.licdn.com/dms/image/v2/C560BAQHOJdmh4viIRQ/company-logo_100_100/company-logo_100_100/0/1631382201461?e=1755734400&v=beta&t=P4ynftaobw4AkZ0XCPiaHBoxHe24KVjC86EOHsVrQRE",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/cyberghost_logo.jpeg",
         "category": "VPN"
     },
     {
-        "name": "Bytro",
-        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFYiovOH-RUzg/company-logo_200_200/B4EZaDHO0SHYAM-/0/1745956433533?e=1755734400&v=beta&t=OlKU-i4p4AF3Ha6CPiDIDd-bN24rzo-OvIGeAMPJG34",
-        "category": "Gaming"
-    },
-    {
         "name": "Socialpoint",
-        "logo": "https://media.licdn.com/dms/image/v2/D560BAQGppZ4AkWyiFQ/company-logo_200_200/company-logo_200_200/0/1720522659715/social_point_logo?e=1755734400&v=beta&t=806ZHh9lPKtV1q0p3Uk4AfOlIZDY1FTCV_4igo-7XM4",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/social_point_logo.jpeg",
         "category": "Gaming"
     },
     {
         "name": "Raycon",
-        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGnv-y1-2OzMA/company-logo_100_100/company-logo_100_100/0/1711734620020/rayconglobal_logo?e=1755734400&v=beta&t=ThO5YZP-sFwIdLH_cEdjbkwL8Tt6HodQ1A6K0ki_KBk",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/rayconglobal_logo.jpeg",
         "category": "Tech"
     },
     {
         "name": "NetEase",
-        "logo": "https://media.licdn.com/dms/image/v2/C510BAQGyWYGAREBU9Q/company-logo_100_100/company-logo_100_100/0/1630627220630/netease_games_logo?e=1755734400&v=beta&t=3NO-JdRohI2Kd2y8yjZ4u4n7lsZJ8YHIOg6B4StN3eQ",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/netease_games_logo.jpeg",
         "category": "Gaming"
     },
     {
         "name": "Saily",
-        "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEDYFkJ2iMlaQ/company-logo_100_100/company-logo_100_100/0/1705482002660/saily_app_logo?e=1755734400&v=beta&t=a5WuhbWIFq5EcF21t7qicfl2CyjSLR7Tz8SJy_kxM5Y",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/saily_app_logo.jpeg",
         "category": "Tech"
     },
     {
         "name": "Opera",
-        "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGrquqAODKaqQ/company-logo_100_100/company-logo_100_100/0/1666189866563/opera_software_logo?e=1755734400&v=beta&t=7srA67eaymguYhlVKXhllD3_b-6n-cPvYf2mD380pZI",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/opera_software_logo.jpeg",
         "category": "Tech"
     },
     {
         "name": "Wondershare",
-        "logo": "https://media.licdn.com/dms/image/v2/C560BAQFwLnaFAokcFA/company-logo_100_100/company-logo_100_100/0/1630578977350/wondershare_software_logo?e=1755734400&v=beta&t=cE7ULj9mEjwJ_M-JkxrQ0nglNiMO5nesd1oocqjdVzg",
+        "logo": "https://newlineabrands.s3.us-east-2.amazonaws.com/wondershare_software_logo.jpeg",
         "category": "Software"
     }
 ]

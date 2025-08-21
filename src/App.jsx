@@ -11,6 +11,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import { toast } from "react-toastify"
 import exclusiveTalents from "../talents.json";
 import brands from "../brands.json";
+import { ChevronLeft, ChevronRight } from "lucide-react"
 // Mock data for exclusive talents
 
 const SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
