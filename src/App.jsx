@@ -34,6 +34,7 @@ function App() {
 
 
     const handleCaptcha = (token) => {
+        console.log("Captcha token:", token);
         setCaptchaLoading(false);
     };
 
@@ -92,13 +93,18 @@ function App() {
             setCaptchaLoading(true);
             console.log("Submitting form...");
             if (!captchaRef.current) {
-                console.warn("Captcha no inicializado aún");
-                return null;
+                console.error("❌ captchaRef.current no está definido")
+                return
             }
-            const token = await captchaRef.current?.executeAsync();
-            console.log("reCAPTCHA token:", token);
-            captchaRef.current?.reset();
-            setCaptchaLoading(false);
+
+            console.log("🚀 Ejecutando reCAPTCHA...")
+            const token = await captchaRef.current.executeAsync()
+            console.log("✅ Token recibido:", token)
+
+            if (!token) {
+                console.error("❌ No se generó un token de reCAPTCHA")
+                return
+            }
             setLoading(true);
             if (!token) {
                 alert("Por favor completá el reCAPTCHA");
@@ -192,6 +198,9 @@ function App() {
             console.log(error);
             toast.error('Error al enviar el formulario. Por favor, intentá nuevamente más tarde.');
             setLoading(false)
+        } finally {
+            setCaptchaLoading(false);
+            captchaRef.current?.reset();
         }
     }
 
@@ -647,10 +656,16 @@ function App() {
                                             ref={captchaRef}
                                             sitekey={SITE_KEY}
                                             size="invisible"
-                                            onChange={handleCaptcha}
-                                            onErrored={() => setCaptchaLoading(false)}
-                                            onExpired={() => setCaptchaLoading(false)}
                                             badge="bottomright"
+                                            onChange={(token) => console.log("🎯 onChange capturó token:", token)}
+                                            onErrored={() => {
+                                                console.error("⚠️ Error en reCAPTCHA")
+                                                setCaptchaLoading(false)
+                                            }}
+                                            onExpired={() => {
+                                                console.warn("⚠️ reCAPTCHA expirado")
+                                                setCaptchaLoading(false)
+                                            }}
                                         />
                                     </div>
                                 </div>
