@@ -91,6 +91,10 @@ function App() {
             e.preventDefault();
             setCaptchaLoading(true);
             console.log("Submitting form...");
+            if (!captchaRef.current) {
+                console.warn("Captcha no inicializado aún");
+                return null;
+            }
             const token = await captchaRef.current?.executeAsync();
             console.log("reCAPTCHA token:", token);
             captchaRef.current?.reset();
