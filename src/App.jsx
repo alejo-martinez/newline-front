@@ -417,7 +417,7 @@ function App() {
                     </section>
 
                     {/* Exclusive Talents Section */}
-                    <section id="talents" className="w-full py-20 md:py-32 lg:py-40 bg-gradient-to-br from-background to-muted/40">
+                    {/* <section id="talents" className="w-full py-20 md:py-32 lg:py-40 bg-gradient-to-br from-background to-muted/40">
                         <div className="container px-4 md:px-6 mx-auto max-w-7xl">
                             <AnimatedDiv delay={0}>
                                 <div className="text-center space-y-8 mb-20">
@@ -468,7 +468,7 @@ function App() {
                                 </div>
                             </AnimatedDiv>
                         </div>
-                    </section>
+                    </section> */}
 
                     {/* Clients Section */}
                     <section id="clients" className="w-full py-20 md:py-32 lg:py-40 bg-muted/40">
